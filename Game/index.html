@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="cssnjs/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Guessing Game</h1>
+        <p>Guess the hidden word by entering one letter at a time.</p>
+        <p>Hint: It's a fruit!</p>
+        <div class="word-container" id="wordContainer"></div>
+        <input type="text" id="letterInput" maxlength="1" placeholder="Enter a letter">
+        <button onclick="checkLetter()">Guess</button>
+        <p id="message"></p>
+    </div>
+
+    <script src="cssnjs/index.js"></script>
+</body>
+</html>

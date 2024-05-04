@@ -1,0 +1,180 @@
+*{
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* styling the form input */
+#form{
+    position: relative;
+    max-width: 95%;
+    height: 900px;
+    margin: auto;
+    background-color:rgba(255, 255, 255, 1);
+}
+
+/* Basic Info styling */
+.info, .info2, .info3{
+    height: 30px;
+    width: 98%;
+    background-color: rgba(33, 33, 33, 1);
+    font-size: 13px;
+    font-family: "ubuntu", sans-serif;
+    margin: 20px 0;
+}
+/* input styles */
+
+.info h4, .info2 h4, .info3 h4{
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+    padding: 6px 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+#info-det, #info-det2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.info-det1 input, .info-pro input, .info-cre input{
+    display: block;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    border-radius: none;
+    color:rgba(255, 255, 255, 1); ;
+    background-color: rgba(73, 131, 194, 1);
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "ubuntu", sans-serif;
+}
+
+.info-cre input{
+    max-width: 600px;
+}
+
+.info-add input{
+    display: block;
+    margin-top: 5px;
+    width: 98%;
+    color:rgba(255, 255, 255, 1); ;
+    background-color: rgba(73, 131, 194, 1);
+    font-family: "ubuntu", sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color:rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-family: "ubuntu", sans-serif;
+}
+
+.but-add{
+    margin-bottom: 10px;
+    position: absolute;
+    bottom:-22px;
+    left: 200px;
+}
+
+.but-add2{
+    position: absolute;
+    bottom:-45px;
+    left: 180px;
+}
+.but-add, .but-add2{
+    border: none;
+    font-size: 11px;
+    padding: 5px;
+    /* width: 100px; */
+    font-family: "ubuntu", sans-serif;
+    background-color: rgba(66, 113, 167, 1);
+    color: rgba(233, 235, 248, 1);
+}
+
+/* styling the apartment image */
+#image{
+    background-image: linear-gradient(rgba(80, 80, 80, 0), rgba(29, 29, 29, 0.9)
+    ),url(https://i.postimg.cc/44hS01PH/unsplash-jn7u-Ve-Cdf6-U.png);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size:auto;
+    height: 400px;
+    position: relative;
+    max-width: 98%;
+    margin: 0 30px;
+}
+
+#image p{
+    position: absolute;
+    top: 85px;
+    left: 400px;
+    width: 350px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+
+/* footer styling */
+.footers{
+    background:rgba(33, 33, 33, 1);
+    max-width: 98%;
+    margin: 0 30px;
+}
+
+.foot{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.one ul a, .two ul a, .three ul a, .four ul a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0 0 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* social media styling */
+#social-media{
+    height: 145px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.media-imgs{
+    display: flex;
+    gap: 10px;
+}
+.medialink-h4{
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/* search button */
+.sea-btnn{
+    text-transform: capitalize;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    color: rgba(102, 175, 15, 1);
+    background-color: rgba(254, 252, 252, 1);
+}
+
+.sea-btnn:hover{
+    color: rgba(254, 252, 252, 1);
+    background-color:rgba(102, 175, 15, 1);
+}

@@ -1,0 +1,635 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+/* ABOUT US STYLES */
+
+/* Vision styling */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+h3 {
+    text-transform: capitalize;
+    color: rgba(73, 131, 194, 1);
+    text-align: center;
+}
+
+.imgg {
+    height: 250px;
+    width: 320px;
+    margin: 65px;
+}
+
+.about-text {
+    width: 35%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* Mission styling */
+.about2 {
+    padding: 0px 50px;
+    margin: 0 auto 40px;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.lines,
+.lines2 {
+    position: relative;
+    max-width: 300px;
+    margin: 3px auto;
+    text-align: center;
+}
+
+.lines:before,
+.lines2:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    height: 2px;
+    width: 100px;
+    background: rgb(70, 70, 70);
+}
+
+.lines:after,
+.lines2:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    height: 2px;
+    width: 100px;
+    background: rgb(70, 70, 70);
+}
+
+/* team members styling */
+.div-text {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.div-text p {
+    font-size: 12px;
+}
+
+.team-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.teamg {
+    width: 120px;
+    height: 120px;
+    margin-left: 15px;
+}
+
+.teams h4 {
+    color: rgba(5, 74, 145, 1);
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.teams p {
+    text-transform: uppercase;
+    color: rgba(250, 147, 29, 1);
+    text-align: center;
+    font-size: 7px;
+}
+
+/* subscribe to Newsletter styling */
+#div-news {
+    position: relative;
+    background-color: rgba(73, 131, 194, 1);
+    height: 200px;
+    border-radius: 5px;
+}
+
+.news-text {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.news-text p,
+h5 {
+    padding-bottom: 8px;
+    font-size: 12px;
+    color: rgb(225, 207, 207);
+}
+
+.news-text h3 {
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: white;
+}
+
+.div-input {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+input {
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 1);
+    outline: none;
+    background-color: rgba(73, 131, 194, 1);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btnn {
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding: 3px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background-color: rgba(255, 186, 0, 1);
+}
+
+
+/* arch styling */
+.arch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 35% 0 75%;
+    background-color: rgba(255, 186, 0, 1);
+}
+
+.arch2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 70% 30% 0;
+    background-color: rgba(255, 186, 0, 1);
+}
+
+/* footer styling */
+.footer {
+    /* height: 200px; */
+    background: rgba(33, 33, 33, 1);
+}
+
+.div-foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.first ul a,
+.second ul a,
+.third ul a,
+.fourth ul a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 0 0 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* social media styling */
+#media {
+    height: 145px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.media-img {
+    display: flex;
+    gap: 10px;
+}
+
+.media-h4 {
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/* search button */
+.sea-btn {
+    text-transform: capitalize;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    color: rgba(102, 175, 15, 1);
+    background-color: rgba(254, 252, 252, 1);
+}
+
+.sea-btn:hover {
+    color: rgba(254, 252, 252, 1);
+    background-color: rgba(102, 175, 15, 1);
+}
+
+
+
+
+
+/* ADD PROPERTY STYLES */
+
+/* styling the form input */
+#form {
+    max-width: 95%;
+    /* height: 900px; */
+    margin: auto;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Basic Info styling */
+.info,
+.info2,
+.info3 {
+    height: 30px;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 1);
+    font-size: 13px;
+    font-family: "ubuntu", sans-serif;
+    margin: 20px 0;
+}
+
+/* input styles */
+
+.info h4,
+.info2 h4,
+.info3 h4 {
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+    padding: 6px 0;
+    font-family: "ubuntu", sans-serif;
+}
+
+#info-det {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.info-det1 input,
+.info-pro select,
+.info-pro input,
+.info-cre input {
+    display: block;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    border-radius: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(73, 131, 194, 1);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-family: "ubuntu", sans-serif;
+}
+
+.info-det1, .info-pro, .info-cre {
+    max-width:  700px;
+    width: 700px;
+}
+
+
+.info-add input {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(73, 131, 194, 1);
+    font-family: "ubuntu", sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-family: "ubuntu", sans-serif;
+}
+
+
+/* styling the apartment image */
+#image {
+    background-image: linear-gradient(rgba(80, 80, 80, 0), rgba(29, 29, 29, 0.9)), url(https://i.postimg.cc/44hS01PH/unsplash-jn7u-Ve-Cdf6-U.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.image-text {
+    width: 350px;
+}
+
+#image p {
+    font-size: 23px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+
+/* footer styling */
+.footers {
+    background: rgba(33, 33, 33, 1);
+    max-width: 98%;
+    margin: 0 30px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.one ul a,
+.two ul a,
+.three ul a,
+.four ul a {
+    display: block;
+    text-decoration: none;
+    padding: 20px 0 0 60px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* social media styling */
+#social-media {
+    height: 145px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.media-imgs {
+    display: flex;
+    gap: 10px;
+}
+
+.medialink-h4 {
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/* search button */
+.sea-btnn {
+    text-transform: capitalize;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+    color: rgba(102, 175, 15, 1);
+    background-color: rgba(254, 252, 252, 1);
+}
+
+.sea-btnn:hover {
+    color: rgba(254, 252, 252, 1);
+    background-color: rgba(102, 175, 15, 1);
+}
+
+
+/* SEARCH PAGE STYLING */
+#box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#chima {
+    margin: 60px 0;
+}
+
+/* Search Styling */
+
+/* search-input styling */
+.search-input {
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-input input {
+    width: 100%;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    padding: 16px;
+    padding-left: 60px;
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.search-input input::placeholder{
+    font-size: 20px;
+    color: rgba(134, 134, 134, 1);
+}
+
+/* div=input styling */
+.div-input {
+    width: 88%;
+    position: relative;
+}
+
+/* Area search styling */
+.Area-search {
+    width: 12%;
+    position: relative;
+}
+
+.Area-search select {
+    width: 100%;
+    padding: 17px 5px;
+    padding-left: 20px;
+    border-radius: 0 12px 12px 0;
+    border: none;
+    background-color: rgba(230, 230, 230, 0.41);
+    outline: none;
+}
+
+.Area-search select option {
+    color: rgba(5, 74, 145, 1);
+}
+
+.fa-map {
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+/* search button Icon styling */
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: rgba(5, 74, 145, 1);
+}
+
+/* styling recent */
+#recent {
+    position: relative;
+    height: 130px;
+    width: 650px;
+    border-radius: 15px;
+    background-color:rgba(244, 244, 244, 1);
+    box-shadow: 5px 5px 7px grey;
+}
+
+.recent{
+    padding: 10px 15px;
+}
+
+.recent ul li {
+    list-style: none; 
+}
+
+.recent h3{
+    color: rgba(0, 0, 0, 1);
+    text-align: justify;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.fa-arrow-rotate-right {
+    color: rgba(5, 74, 145, 1);
+    margin-right: 8px;
+    transform: skew(10deg, 10deg);
+}
+
+/* MEDIA QUERY ADD-PROPERTY 995PX SCREEN */
+@media screen and (max-width: 995px){
+
+    .info-det1 input,
+    .info-pro select,
+    .info-pro input,
+    .info-cre input {
+
+        width: 100%;
+
+    }
+    
+    .info-det1, .info-pro, .info-cre {
+        width: 100%;
+    }
+}
+
+/* ADD-PROPERTY MEDIA SCREEN 799PX */
+@media screen and (max-width: 799px) {
+    #info-det {
+        display: block;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .info-det1 input,
+    .info-pro select,
+    .info-pro input,
+    .info-cre input {
+
+        width: 100%;
+
+    }
+    
+
+    .foot {
+        display: block;
+        align-content: flex-start;
+    }
+
+    .one ul a,
+    .two ul a,
+    .three ul a,
+    .four ul a {
+        text-align: left;
+    }
+
+    /* SEARCH-PROPERTY MEDIA QUERY 799PX */
+#recent{
+    width: 550px;
+}
+
+.Area-search{
+    width: 15%;
+}
+
+}
+
+
+
+/* ADD-PROPERTY MEDIA QUERY SCREEN 550PX */
+@media screen and (max-width: 550px) {
+    .info-det1 input,
+    .info-pro select,
+    .info-pro input,
+    .info-cre input {
+
+        width: 100%;
+    }
+
+ /* SEARCH-PROPERTY MEDIA QUERY 550PX */
+    
+ #recent{
+    width: 420px;
+}
+.Area-search{
+    width: 20%;
+}
+
+}

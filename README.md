@@ -1,0 +1,1 @@
+This repository contains the source code for website, developed using HTML, CSS, and JavaScript.

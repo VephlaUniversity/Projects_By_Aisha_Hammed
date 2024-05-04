@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    background-color: #f9fafb;
+}
+
+
+
+
+/* This is the styling for the header */
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4px;
+}
+#logo {
+    margin-left: -15px;
+}
+#home {
+    font-size: 1.9rem;
+    word-spacing: 4rem;
+}
+#home a {
+    text-decoration: none;
+    color: black;
+}
+#reg {
+    border: 0.5rem;
+    background-color: #4983c2;
+    border-radius: 1.4rem;
+    padding: 1.5rem;
+    border-width: 1.5rem;
+    font-size: 1.5rem;
+}
+#reg a {
+    text-decoration: none;
+    color: white;
+}
+#underline {
+    text-decoration: underline;
+}
+
+
+
+
+
+/* Styling for the Second Div after the heading */
+#loggin {
+    background-image: url(https://i.postimg.cc/8Pmt8X6c/unsplash-dczn-EJPmsk-copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    opacity: 0.78;
+    padding-top: 5%;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #3f6c9f;
+}
+#log {
+    width: fit-content;
+}
+#log h2{
+    color: solid black;
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-decoration: none;
+}
+#log input[type=email], #log input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.2rem solid #000000;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+#log label {
+    font-size: 2rem;
+}
+#log button {
+    background-color: #4983c2;
+    color: white;
+    padding: 10px 16px;
+    margin: 3px 0;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 20%;
+    border-radius: 10px;
+}
+#log button:hover {
+    opacity: 0.6;
+}
+#log #reset {
+    color: #e53631;
+    text-decoration: underline;
+}
+#log #chat {
+    color: #000000;
+}
+#log p {
+    margin-left: 7rem;
+    font-size: large;
+}
+#loggin #log #cc {
+    margin-left: 5rem;
+}
+
+
+
+
+
+.divider {
+    height: 0.35rem;
+    background-color: white;
+}
+
+
+
+
+/* styling for the 3rd div */
+.started {
+    background-color: #4e88c6;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #4983c2;
+}
+#start {
+    width: 100%;
+    padding: 5rem;
+}
+#start h2 {
+    margin-left: 15rem;
+    font-size: 3rem;
+    padding-bottom: 4rem;
+}
+#start input[type=email], input[type=text] {
+    width: 30%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.2rem solid #000000;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+#country input {
+    width: 60%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.2rem solid #000000;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+.privacy {
+    color: #2f4878;
+}
+#span {
+    padding-left: 1rem;
+}
+.started button {
+    background-color: #2f4878;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    width: 12%;
+    border-radius: 10px;
+}
+.recom {
+    color: #2f4878;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+.recom a {
+    color: #2f4878;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#footer {
+    background-color: #212121;
+    width: 100%;
+    color: white;
+}
+/* #header {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9.5rem;
+    padding-right: 7.3rem;
+} */
+#header button {
+    background-color: white;
+    color: #4e88c6;
+    padding: 12px 7px 12px 7px;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 600;
+    width: 12%;
+    border-radius: 7px;
+}
+#header h3 {
+    font-size: 1.6rem;
+    padding-top: 3rem;
+    padding-left: 0;
+}
+
+#foot a {
+    color: white;
+    text-decoration: underline;
+}
+#search {
+    color: white;
+}
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 7rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#search {
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* The End */

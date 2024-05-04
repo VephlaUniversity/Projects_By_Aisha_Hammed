@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+}
+
+:root{
+    --for-sale: rgba(250, 147, 29, 1);
+    --terms: rgba(73, 131, 194, 1);
+    --sea: rgba(5, 74, 145, 1);
+    --w: #fff;
+}
+
+#Hero{
+  padding: 0 15px 5px 25px;
+}
+/* Container styling */
+.container{
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.terms{
+  max-width: 800px;
+}
+.terms >ol, .terms2 >ol{
+  margin: 0;
+  padding: 15px;
+}
+
+.terms-imgs{
+  max-height: 300px;
+  max-width: 300px;
+  height: 300px;
+}
+
+.terms h2{
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  color: var(--terms);
+  font-weight: bold;
+}
+
+
+/* Footer styling */
+.footers {
+  background: rgba(33, 33, 33, 1);
+  width: 98%;
+  margin: 0 15px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+.one ul a,
+.two ul a,
+.three ul a,
+.four ul a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 0 0 60px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* social media styling */
+#social-media {
+  height: 145px;
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.media-imgs {
+  display: flex;
+  gap: 10px;
+}
+
+.medialink-h4 {
+  text-transform: capitalize;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.sea-btnn{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 9px 5px 9px;
+  color: var(--sea);
+  background-color: var(--w);
+}
+
+.sea-btnn:hover{
+  background-color: var(--sea);
+  color: var(--w);
+}
+
+
+/* Media screen */
+@media screen and (max-width: 850px){
+  .container{
+    display: block;
+  }
+  .terms{
+    width: 100%;
+  }
+  .terms-img{
+    margin: auto;
+    width: fit-content;
+  }
+  .terms h2{
+    text-align: center;
+  }
+  .foot {
+    display: block;
+    align-content: flex-start;
+}
+
+.one ul a,
+.two ul a,
+.three ul a,
+.four ul a {
+    text-align: left;
+}
+  
+}
